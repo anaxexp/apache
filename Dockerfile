@@ -1,6 +1,6 @@
-ARG APACHE_VER_MINOR
+ARG APACHE_VER
 
-FROM anaxexperience/httpd:${APACHE_VER_MINOR}
+FROM anaxexperience/httpd:${APACHE_VER}
 
 ARG APACHE_VER
 
