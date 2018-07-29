@@ -1,0 +1,17 @@
+language: bash
+
+services:
+  - docker
+
+env:
+  global:
+    - APACHE_VER=2.4.34 TAGS=2.4,2,latest
+
+script:
+  - set -e
+  - make compare-orig-configs
+  - make
+  - make test
+
+after_success:
+  - . "${TRAVIS_BUILD_DIR}/release.sh"
