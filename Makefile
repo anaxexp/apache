@@ -5,7 +5,7 @@ APACHE_VER_MINOR ?= $(shell echo "${APACHE_VER}" | grep -oE '^[0-9]+\.[0-9]+')
 
 TAG ?= $(APACHE_VER_MINOR)
 
-REPO = anaxexperience/apache
+REPO = anaxexp/apache
 NAME = apache-$(APACHE_VER_MINOR)
 
 ifneq ($(STABILITY_TAG),)

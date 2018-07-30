@@ -1,20 +1,20 @@
 # Apache HTTP Server Docker Container Image
 
 [![Build Status](https://travis-ci.org/anaxexp/apache.svg?branch=master)](https://travis-ci.org/anaxexp/apache)
-[![Docker Pulls](https://img.shields.io/docker/pulls/anaxexperience/apache.svg)](https://hub.docker.com/r/anaxexperience/apache)
-[![Docker Stars](https://img.shields.io/docker/stars/anaxexperience/apache.svg)](https://hub.docker.com/r/anaxexperience/apache)
-[![Docker Layers](https://images.microbadger.com/badges/image/anaxexperienceapache.svg)](https://microbadger.com/images/anaxexperience/apache)
+[![Docker Pulls](https://img.shields.io/docker/pulls/anaxexp/apache.svg)](https://hub.docker.com/r/anaxexp/apache)
+[![Docker Stars](https://img.shields.io/docker/stars/anaxexp/apache.svg)](https://hub.docker.com/r/anaxexp/apache)
+[![Docker Layers](https://images.microbadger.com/badges/image/anaxexpapache.svg)](https://microbadger.com/images/anaxexp/apache)
 
 ## Docker Images
 
-❗️For better reliability we release images with stability tags (`anaxexperience/apache:2.4-X.X.X`) which correspond to [git tags](https://github.com/anaxexp/apache/releases). We strongly recommend using images only with stability tags. 
+❗️For better reliability we release images with stability tags (`anaxexp/apache:2.4-X.X.X`) which correspond to [git tags](https://github.com/anaxexp/apache/releases). We strongly recommend using images only with stability tags. 
 
 Overview:
 
 * All images are based on Alpine Linux
-* Base image: [anaxexperience/httpd](https://github.com/anaxexp/httpd)
+* Base image: [anaxexp/httpd](https://github.com/anaxexp/httpd)
 * [Travis CI builds](https://travis-ci.org/anaxexp/apache) 
-* [Docker Hub](https://hub.docker.com/r/anaxexperience/apache) 
+* [Docker Hub](https://hub.docker.com/r/anaxexp/apache) 
 
 Supported tags and respective `Dockerfile` links:
 
@@ -48,9 +48,9 @@ Supported tags and respective `Dockerfile` links:
 
 ## [Enabled Modules](https://github.com/anaxexp/apache/blob/master/test/apache_modules)
 
-## Images based on `anaxexperience/apache`
+## Images based on `anaxexp/apache`
 
-* [anaxexperience/php-apache](https://github.com/anaxexp/php-apache)
+* [anaxexp/php-apache](https://github.com/anaxexp/php-apache)
 
 ## Orchestration actions
 

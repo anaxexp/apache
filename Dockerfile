@@ -1,6 +1,6 @@
 ARG APACHE_VER
 
-FROM anaxexperience/httpd:${APACHE_VER}
+FROM anaxexp/httpd:${APACHE_VER}
 
 ARG APACHE_VER
 
