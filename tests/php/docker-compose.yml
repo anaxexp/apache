@@ -9,7 +9,7 @@ services:
     volumes:
       - codebase:/var/www/html
   php:
-    image: wodby/php
+    image: anaxexp/php
     volumes:
       - codebase:/var/www/html
 volumes:
