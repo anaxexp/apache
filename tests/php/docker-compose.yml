@@ -1,5 +1,5 @@
 version: "2"
- services:
+services:
   apache:
     image: $IMAGE
     environment:
@@ -12,5 +12,5 @@ version: "2"
     image: wodby/php
     volumes:
       - codebase:/var/www/html
- volumes:
-  codebase: 
+volumes:
+  codebase:
